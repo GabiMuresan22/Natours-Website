@@ -1,0 +1,18 @@
+*,
+a::before,
+a::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  /* 10 /16 = 62.5% Set your font-size on 62.5% which is equals with 10px */
+}
+body {
+  box-sizing: border-box;
+
+  /* Set box-sizing on body, and on universal selector set on inherit */
+}
